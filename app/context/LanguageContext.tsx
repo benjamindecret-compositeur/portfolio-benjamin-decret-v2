@@ -31,8 +31,14 @@ const translations = {
     biography: {
       tag: "À propos",
       title: "Benjamin Decret",
-      para1: "Compositeur, mon identité musicale repose sur une pratique passionnée et diversifiée. Multi-instrumentiste, formé à la musicologie et aux techniques d'orchestration, mon langage sonore se trouve à l'intersection du classique, de l'électronique, du jazz et du Pop Rock.",
-      para2: "Ma démarche artistique consiste à m'immerger profondément dans chaque projet pour en saisir l'essence dramatique et émotionnelle. Qu'il s'agisse d'un long-métrage d'animation, d'un jeu vidéo à l'atmosphère épique, ou d'un court-métrage intimiste, j'adapte avec précision ma palette sonore pour créer l'univers musical de chaque projet et servir la narration."
+      para1: "Compositeur, mon identité musicale repose sur une pratique passionnée et diversifiée. Multi-instrumentiste, formé à la musique à l'image et aux techniques d'orchestration, mon langage sonore se trouve à l'intersection du classique, de l'électronique, du jazz et du Rock.",
+      para2: "Ma démarche artistique consiste à utiliser ma diversité d'influences musicales pour trouver une identité qui correspond parfaitement à votre projet, que ce soit par de la création sonore, l'utilisation d'instruments méconnus, ou l'enregistrement d'instruments réels que je pratique. Qu'il s'agisse d'un long-métrage d'animation, d'un jeu vidéo à l'atmosphère épique, ou d'un court-métrage intimiste, j'adapte avec précision ma palette sonore pour créer l'univers musical de chaque projet et servir la narration.",
+      parcourTitle: "Mon parcours :",
+      parcour1: "Apprentissage du violoncelle en conservatoire pendant plus de 15 ans, et participation à de nombreux orchestres, notamment en tant que soliste",
+      parcour2: "Apprentissage du saxophone en conservatoire pendant 10 ans, participation à des ensembles de Jazz et d'improvisation",
+      parcour3: "Formation autodidacte à la basse et la guitare, pratiquées dans mes différents groupes de musiques signés chez des labels indépendants (styles : Rock psyché, Black Metal, Dance Pop…)",
+      parcour4: "Formation au sound design, pratique des synthétiseurs et de la musique électronique",
+      parcour5: "Formation à la musique à l'image, obtention d'une certification, participation à des Masterclasses…",
     },
     services: {
       tag: "Ce que je propose",
@@ -55,12 +61,58 @@ const translations = {
       narrativeTitle: "Musiques Narratives",
       narrativeLink: "Lien Soundcloud →",
       discoTitle: "Discographie",
-      discoSubtitle: "mes projets de musique actuelle",
+      discoSubtitle: "mes projets de musique actuelle : Bedroom / Dance Pop, Rock psychédélique…",
       listenTitle: "À écouter",
       listenSubtitle: "ambiances narratives, jeux vidéos…",
       imageTitle: "À l'image",
       imageSubtitle: "musique pour films, trailers, jeux vidéos",
       styleLabel: "Style :",
+      scTracks: {
+        laspiration: {
+          desc: "Création musicale onirique hybride",
+          style: "classique, électronique, Dreamy, ambient"
+        },
+        whisperingTrees: {
+          desc: "Création musicale ambiante dark",
+          style: "organique, violoncelle, gothique"
+        },
+        ambientTides: {
+          desc: "Création musicale organique électronique",
+          style: "hybride violoncelle / synthétiseurs analogiques, ambient"
+        },
+        cuteFriendlyAdventure: {
+          desc: "Musique réalisée pour un jeu vidéo",
+          style: "médiéval fantasy retro / léger"
+        },
+        cuteFriendlyBattle: {
+          desc: "Musique réalisée pour un jeu vidéo",
+          style: "médiéval fantasy retro / léger"
+        },
+        darkNoireAmbiance: {
+          desc: "Musique réalisée pour un jeu vidéo",
+          style: "policier, Jazz sombre, années 1940, \"noire\""
+        },
+        japanHorror: {
+          desc: "Musique réalisée pour un jeu vidéo",
+          style: "Japonais féodal, sombre, mystérieux"
+        },
+        horrorChase: {
+          desc: "Musique réalisée pour un jeu vidéo",
+          style: "Horreur, stressant, ambient"
+        },
+        jazzyCozy: {
+          desc: "Musique réalisée pour un jeu vidéo",
+          style: "Jazz, Lounge, influence Bossa"
+        },
+        jazzyBluesy: {
+          desc: "Musique réalisée pour un court métrage",
+          style: "Jazz, Lounge, influence Blues"
+        },
+        tvShowFunk: {
+          desc: "Musique réalisée pour un concept de jeu télévisé",
+          style: "Générique Funk"
+        }
+      },
       fullPortfolioTitle: "Portfolio Complet",
       fullPortfolioDesc: "Exploration de mes compositions originales classées par thématiques et genres.",
       badge: {
@@ -188,8 +240,14 @@ const translations = {
     biography: {
       tag: "About Me",
       title: "Benjamin Decret",
-      para1: "As a composer and multi-instrumentalist, my musical identity spans classical training, electronic production, jazz, and rock — a palette built from more than 20 years of practice across conservatory, studio, and stage.",
-      para2: "My approach starts with the story. Whether scoring a video game, an animated film, or a short film, I build each musical universe from the emotional core of the project — crafting singular, distinctive worlds where sound and narrative become inseparable."
+      para1: "As a composer and multi-instrumentalist, my musical identity is built on a passionate and diverse practice. Trained in film music and orchestration techniques, my sonic language sits at the intersection of classical, electronic, jazz, and rock.",
+      para2: "My artistic approach is to draw on the breadth of my musical influences to find an identity that perfectly fits your project — whether through original sound creation, the use of lesser-known instruments, or the recording of real instruments I play myself. Whether it's an animated feature, an epic-atmosphere video game, or an intimate short film, I tailor my sonic palette with precision to create the musical universe of each project and serve the narrative.",
+      parcourTitle: "My background:",
+      parcour1: "15+ years of cello training at conservatory, with participation in numerous orchestras, including as a soloist",
+      parcour2: "10 years of saxophone training at conservatory, participation in jazz and improvisation ensembles",
+      parcour3: "Self-taught bass and guitar, played in various bands signed to independent labels (styles: psychedelic rock, black metal, dance pop…)",
+      parcour4: "Training in sound design, synthesizers, and electronic music production",
+      parcour5: "Film music training, professional certification obtained, participation in Masterclasses…",
     },
     services: {
       tag: "What I Offer",
@@ -212,12 +270,58 @@ const translations = {
       narrativeTitle: "Narrative Music",
       narrativeLink: "Soundcloud Link →",
       discoTitle: "Discography",
-      discoSubtitle: "my contemporary music projects",
+      discoSubtitle: "my contemporary music projects: Bedroom / Dance Pop, Psychedelic Rock…",
       listenTitle: "To Listen",
       listenSubtitle: "narrative atmospheres, video games…",
       imageTitle: "For Screen",
       imageSubtitle: "music for films, trailers, video games",
       styleLabel: "Style:",
+      scTracks: {
+        laspiration: {
+          desc: "Hybrid dreamlike musical creation",
+          style: "classical, electronic, Dreamy, ambient"
+        },
+        whisperingTrees: {
+          desc: "Dark ambient musical creation",
+          style: "organic, cello, gothic"
+        },
+        ambientTides: {
+          desc: "Organic electronic musical creation",
+          style: "cello / analog synthesizers hybrid, ambient"
+        },
+        cuteFriendlyAdventure: {
+          desc: "Music composed for a video game",
+          style: "medieval fantasy retro / light"
+        },
+        cuteFriendlyBattle: {
+          desc: "Music composed for a video game",
+          style: "medieval fantasy retro / light"
+        },
+        darkNoireAmbiance: {
+          desc: "Music composed for a video game",
+          style: "crime, dark jazz, 1940s, \"noir\""
+        },
+        japanHorror: {
+          desc: "Music composed for a video game",
+          style: "feudal Japanese, dark, mysterious"
+        },
+        horrorChase: {
+          desc: "Music composed for a video game",
+          style: "horror, tense, ambient"
+        },
+        jazzyCozy: {
+          desc: "Music composed for a video game",
+          style: "Jazz, Lounge, Bossa influence"
+        },
+        jazzyBluesy: {
+          desc: "Music composed for a short film",
+          style: "Jazz, Lounge, Blues influence"
+        },
+        tvShowFunk: {
+          desc: "Music composed for a TV game show concept",
+          style: "Funk theme"
+        }
+      },
       fullPortfolioTitle: "Full Portfolio",
       fullPortfolioDesc: "Exploration of my original compositions sorted by themes and genres.",
       badge: {
